@@ -1,5 +1,7 @@
 # flask-highcharts
 
+Tutorial:
+
 - Fetch data from https://www.blockchain.com/
 - Data preprocessing in Flask and parse to Highcharts
 - Deploy to Heroku
