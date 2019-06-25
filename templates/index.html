@@ -10,22 +10,17 @@
     <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
     <script type="text/javascript">
         $.getJSON('/data.json', function (data) {
-
             // create the chart
             Highcharts.stockChart('container', {
-
-
                 title: {
                     text: 'Bitcoin'
                 },
-
                 rangeSelector: {
                     selected: 1,
                     inputEnabled: false
                 },
-
                 series: [{
-                    name: 'AAPL',
+                    name: 'Bitcoin',
                     data: data,
                     tooltip: {
                         valueDecimals: 2
